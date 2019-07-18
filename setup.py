@@ -24,7 +24,8 @@ setup(
     name=_project,
     version=_version,
     license=_license,
-    description=_read('DESCRIPTION'),
+    description='Simple migration engine for Peewee',
+    long_description_content_type='text/x-rst',
     long_description=_read('README.rst'),
     platforms=('Any'),
     keywords = "django flask sqlalchemy testing mock stub mongoengine data".split(), # noqa
